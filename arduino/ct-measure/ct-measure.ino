@@ -5,7 +5,7 @@ int INPUT_PIN = 0;
 int SAMPLING_SIZE = 1480;
 double CT_CURRENT_VOLTAGE_RATIO = 30;
 double INPUT_CALIBRATION = 509;
-double EMON_CALIBRATION = 1800/62;
+double EMON_CALIBRATION = 1800/62; // https://github.com/openenergymonitor/EmonLib/issues/60
 
 double voltageMultiplier = CT_CURRENT_VOLTAGE_RATIO * 10 / 512;
 
